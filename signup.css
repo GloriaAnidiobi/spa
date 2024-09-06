@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    margin:auto;
+    width: 500px;
+    height: 600px;
+    border:solid #1B4513 1px;
+    margin-top: 30px;
+} 
+
+
+.bx-left-arrow-alt{
+    background:#1B4513;
+    font-size: 20px;
+    font-weight:bold;
+    color:#f0f0f0;
+    margin-right: 400px;
+    padding-top: 30px;
+}  
+
+
+.welcome{
+    background: #1B4513;
+}
+
+h3{
+    padding-bottom: 20px;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+.page{
+    color:#f0f0f0;
+    font-size: 20px;
+    margin-right:80px;
+
+}
+
+.len{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#1B4513;
+    align-content: center;
+    
+}
+.passward{
+    font-size: 20px;
+    text-align: center;
+    margin-left:20px;
+    width: 400px;
+    height:50px;
+
+   
+}
+.name{
+    font-size: 20px;
+    text-align: center;
+    margin-left:20px ;
+    width: 400px;
+    height: 50px;
+   
+}
+.email{
+    font-size: 20px;
+    text-align: center;
+    margin-left:20px ;
+    width: 400px;
+    height: 50px;
+}
+
+
+input{   
+min-width:400px;
+height: 50px;
+margin-left: 40px;
+border-radius: 10px;
+border:solid #1B4513 2px;
+}
+
+
+.white{
+background-color:#f0f0f0;
+border-radius: 50px;
+text-align: center;
+padding-top: 50px;
+border:solid #1B4513 2px;
+}
+
+#error{
+    color: red;
+    font-weight:200px;
+}
+button{
+    font-size: 20px; 
+    font-weight: 10%; 
+    color: #f0f0f0;
+    width: 400px;
+    height: 50px;  
+    margin-top: 40px;
+    background: #1B4513;
+    border-radius: 20px;
+}
+
+button:hover{
+background:#7ba024;
+color:#f0f0f0;
+cursor: pointer;
+}
+p{
+    color: #1B4513;
+    font-size: large;
+}
+.or{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: #1B4513;
+}
+a{
+    color:#1B4513 ;
+}
+
+.log{
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+a{
+    text-decoration: none;
+}
+
+.social{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+
+
+@media only screen and (max-width:800px){
+
+    .container{
+       width: 390px;
+       margin-right: auto;
+      
+   } 
+
+   button{
+    font-size: 20px; 
+    width: 300px;
+}
+.passward{
+    margin-right:10px;
+   
+
+
+   
+}
+.name{
+    margin-right:10px;
+   
+   
+}
+.email{
+    margin-right:10px ;
+}
+
+
+}
